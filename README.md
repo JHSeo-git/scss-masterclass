@@ -2,6 +2,8 @@
 
 (S)CSS Layout Masterclass: Flexbox & Grid
 
+Practice to nomadcoder clone project
+
 ## Flexbox:
 
 - [x] flex-direction

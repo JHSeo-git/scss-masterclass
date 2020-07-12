@@ -2,8 +2,8 @@
   "name": "scss-masterclass",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "",
-  "author": "",
+  "repository": "https://github.com/JHSeo-git/scss-masterclass.git",
+  "author": "JHSeo, nomadcoder clone",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.4.5",
