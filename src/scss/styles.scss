@@ -1,6 +1,68 @@
-@import "_reset";
+@import "./_reset";
+@import "./variables";
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: Univers, Helvetica Neue, Helvetica, Myriad Pro, Myriad, Geneva,
+    Arial, sans-serif;
+}
 
 header {
-  background-color: #f0f0f0;
+  background-color: $white;
   width: 600px;
+  height: 100%;
+  padding: 10vh 0 72px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $red;
+}
+
+h1 {
+  font-size: 85px;
+  width: 50%;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-stretch: 100%;
+  margin-bottom: 35px;
+  width: 60%;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  width: 70%;
+  margin-bottom: 35px;
+}
+
+h3,
+p {
+  text-align: justify;
+  line-height: 1.2;
+}
+
+nav {
+  width: 90%;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      margin-right: 15px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: black;
+      opacity: 0.5;
+      padding-bottom: 5px;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
 }
