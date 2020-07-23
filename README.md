@@ -4,6 +4,9 @@
 
 Practice to nomadcoder clone project
 
+- demo : https://jhseo-git.github.io/scss-masterclass/
+- target site : [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+
 ## Flexbox:
 
 - [x] flex-direction
